@@ -2,7 +2,7 @@
     margin: 0px;
     font-family: 'inter';
 }
-
+/*Inserido style no body para centralizar a landing page*/
 body{
     margin-left: 231.5px;
     margin-right: 231.5px;
@@ -35,7 +35,6 @@ body{
 }
 
 .texto-informacional{
-    
     margin-top: 83px;
     margin-bottom: 83px;
     font-size: 22px;
@@ -46,6 +45,7 @@ body{
     font-weight: bolder;
 }
 
+/*Margin no texto informacional*/
 #texto1{
     margin-left: 165px;
 }

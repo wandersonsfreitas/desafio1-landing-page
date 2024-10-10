@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <!---Adiciona Fontes do Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -19,13 +20,15 @@
 
     <!---Menu Informacional-->
     <div id="menuinformacional">
-        <div class="texto-informacional" id="texto1" ><p><p class="numeroinformacional">850</p>empreendimentos construídos</p></div>
-        <div class="texto-informacional" id="texto2" ><p><p class="numeroinformacional">40</p>anos de mercado e experiência</p></div>
+        <!---Paragráfo do número dentro do paragráfo do texto-->
+        <div class="texto-informacional" id="texto1" ><p><p class="numeroinformacional">850</p>empreendimentos construídos</p></div> <!---Id Texto1 para inserir margin-->
+        <div class="texto-informacional" ><p><p class="numeroinformacional">40</p>anos de mercado e experiência</p></div>
         <div class="texto-informacional"><p><p class="numeroinformacional">2,000,000</p>m² em projetos construídos</p></div>
     </div>
     
     <!--Seção Corpo-->
     <div id="secaocorpo">
+        <!--Texto da seção corpo do site-->
         <div id="texto_secao_corpo">
             <h1 id="titulo_secao_corpo">Arquitetos com História e Experiência.<br><br></h1>
             <p>
@@ -36,12 +39,14 @@
             e a modernidade em nossos projetos.
             </p>
         </div>
+        <!--Imagem da seção corpo-->
         <div id="imagem_corpo" ><img src="img/imagem_corpo.svg" alt="Erro" srcset=""></div>
     </div>
 
     <!--Seção Formulário-->
     <div id="formulario">
         <h1 id="titulo_formulario">Conheça mais sobre nossos serviços:</h1>
+        <!--Fumulário integrado ao SheetMonkey para envio dos inputs-->
         <form action="https://api.sheetmonkey.io/form/vyWtbQf8ayBsWErvsF5V5M" method="post">
             <input type="text" placeholder="Nome" name="Name" required ><br>
             <input type="email" placeholder="Email" name="E-mail" required ><br>
